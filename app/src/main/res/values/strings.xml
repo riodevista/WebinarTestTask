@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Webinar Test Task</string>
+    <string name="no_camera_message">К сожалению, у вас нет камеры :(</string>
+    <string name="unknown_error_message">Что-то пошло не так.\nПопробуйте ещё раз.</string>
+    <string name="camera_is_not_available_message">В данный момент камера не доступна.</string>
+</resources>
