@@ -35,6 +35,10 @@ public class CameraUseCase implements UseCase{
             return;
         }
 
+        Camera.Parameters params = camera.getParameters();
+        params.setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
+        camera.setParameters(params);
+
         onFinishedListener.onSuccess();
     }
 
